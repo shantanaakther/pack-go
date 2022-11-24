@@ -1,0 +1,123 @@
+:root{
+    --white:#ffff;
+    --primary:#007F5F;
+    --Poppins:'Poppins', sans-serif;
+    --nunito: 'Nunito Sans', sans-serif;
+}
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+ul,ol,li{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+a:hover{
+    text-decoration: none;
+}
+/* all css end */
+#navbar{
+    background: var(--white);
+}
+.nav_btn a{
+    background: var(--primary);
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--white);
+} 
+.banner_info{
+   
+}
+#banner{
+    background:url(../images/banner.jpg)no-repeat center/cover;
+}
+#banner .overlay{
+    background: rgba(0, 0, 0, 0.4);
+    padding: 134px;
+}
+.banner_info .info h1{
+font-family: var(--Poppins);
+font-weight: 600;
+font-size: 65px;
+line-height: 80px;
+letter-spacing: 0.2px;
+color:var(--white);
+}
+.banner_info .info p{
+font-family: 'Poppins';
+font-weight: 400;
+font-size: 16px;
+line-height: 30px;
+color: var(--white);
+opacity: 0.7;
+}
+.banner_info .info a{
+    background: var(--primary);
+border-radius: 17px;
+padding: 16px 35px;
+font-family: var(--Poppins);
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+color: var(--white);
+}
+.banner_info .search_box{
+    width: 825px;
+    padding: 24px 26px;
+    margin-top: 60px;
+    background: var(--white);
+    box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.05);
+    border-radius: 0px 10px 10px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 65px;
+}
+.banner_info .search_box .item{
+    display: flex;
+}
+.banner_info .search_box .item .text{
+    
+}
+.banner_info .search_box .item .text select{
+    width: 100%;
+    border: none;
+}
+.banner_info .search_box .item .text input{
+    width: 100%;
+    border: none;
+    color: #007F5F;
+}
+.banner_info .search_box .item .text input::placeholder{
+    margin-top: 8px;
+    font-family: var(--nunito);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #6A6A6A;
+}
+.banner_info .search_box .item svg{
+    stroke: var(--primary);
+}
+.banner_info .search_box .search button{
+    border: none;
+    background: var(--primary);
+    border-radius: 10px;
+    padding: 30px;
+    color: var(--white);
+    stroke: var(--white);
+    cursor: pointer;
+}
+.banner_info .search_box .search button svg{
+    stroke: var(--white);
+}
+    
